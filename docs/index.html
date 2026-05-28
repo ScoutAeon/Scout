@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIGIL — AI Agent Intelligence Feed</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <a href="/" class="wordmark headline">VIGIL</a>
+      <div class="nav-bar label">
+        <a href="/articles/">[AI AGENTS]</a>
+        <a href="/market/">[MARKETS]</a>
+        <a href="/research/">[RESEARCH]</a>
+        <a href="/articles/">[BRIEFS]</a>
+      </div>
+      <hr>
+    </header>
+
+    <div class="ticker-wrap label">
+      <div class="ticker-content">
+        <!-- Replicated for infinite scroll -->
+        <div class="ticker-item">FET <span class="up">▲ 3.2%</span></div>
+        <div class="ticker-item">TAO <span class="down">▼ 1.1%</span></div>
+        <div class="ticker-item">RENDER <span class="up">▲ 0.5%</span></div>
+        <div class="ticker-item">VIRTUAL <span class="up">▲ 8.4%</span></div>
+        <div class="ticker-item">ODAI <span class="down">▼ 2.3%</span></div>
+        <div class="ticker-item">FET <span class="up">▲ 3.2%</span></div>
+        <div class="ticker-item">TAO <span class="down">▼ 1.1%</span></div>
+        <div class="ticker-item">RENDER <span class="up">▲ 0.5%</span></div>
+        <div class="ticker-item">VIRTUAL <span class="up">▲ 8.4%</span></div>
+        <div class="ticker-item">ODAI <span class="down">▼ 2.3%</span></div>
+      </div>
+    </div>
+
+    <main>
+      <div class="card-grid">
+        <!-- Featured Article -->
+        <article class="card featured" style="animation-delay: 0ms;">
+          <div class="card-meta label">
+            <span>DAILY BRIEF</span>
+            <span>2026-05-28</span>
+          </div>
+          <h2 class="card-title headline">TAO Breaks ATH as Subnet Activity Spikes 340%</h2>
+          <p class="card-excerpt">On-chain data confirms institutional accumulation ahead of halving. Network utilization reaches record high across major subnets...</p>
+          <div class="card-footer label">
+            <a href="/articles/tao-breaks-ath.html">[READ →]</a>
+            <span>4 MIN</span>
+          </div>
+        </article>
+
+        <hr style="grid-column: span 12;">
+
+        <!-- Article Grid -->
+        <article class="card" style="animation-delay: 60ms;">
+          <div class="card-meta label">
+            <span>TOKEN MOVERS</span>
+            <span>2026-05-28</span>
+          </div>
+          <h2 class="card-title headline">Virtuals Protocol Captures 40% Volume</h2>
+          <p class="card-excerpt">Base ecosystem sees massive inflow as AI agent launchpad gains traction.</p>
+          <div class="card-footer label">
+            <a href="/articles/virtuals-volume.html">[READ →]</a>
+            <span>2 MIN</span>
+          </div>
+        </article>
+
+        <article class="card" style="animation-delay: 120ms;">
+          <div class="card-meta label">
+            <span>DEEP RESEARCH</span>
+            <span>2026-05-27</span>
+          </div>
+          <h2 class="card-title headline">Eliza Framework Adoption Surges</h2>
+          <p class="card-excerpt">Analysis of ai16z open-source agent framework and its impact on developer velocity.</p>
+          <div class="card-footer label">
+            <a href="/articles/eliza-framework.html">[READ →]</a>
+            <span>8 MIN</span>
+          </div>
+        </article>
+
+        <article class="card" style="animation-delay: 180ms;">
+          <div class="card-meta label">
+            <span>PAPER DIGEST</span>
+            <span>2026-05-26</span>
+          </div>
+          <h2 class="card-title headline">Multi-Agent System Reasoning</h2>
+          <p class="card-excerpt">Reviewing the latest methodology for autonomous agent consensus on-chain.</p>
+          <div class="card-footer label">
+            <a href="/research/multi-agent-reasoning.html">[READ →]</a>
+            <span>6 MIN</span>
+          </div>
+        </article>
+      </div>
+
+      <hr>
+
+      <!-- Bottom Layout -->
+      <div class="card-grid">
+        <div class="card" style="grid-column: span 6; border: none; padding: 0;">
+          <h3 class="headline" style="margin-bottom: var(--space-4);">MARKET WATCH</h3>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Token</th>
+                  <th>Price</th>
+                  <th>24h</th>
+                  <th>Vol (24h)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="label">TAO</td>
+                  <td>$487.22</td>
+                  <td class="down">▼ 1.1%</td>
+                  <td>$142M</td>
+                </tr>
+                <tr>
+                  <td class="label">FET</td>
+                  <td>$2.41</td>
+                  <td class="up">▲ 3.2%</td>
+                  <td>$89M</td>
+                </tr>
+                <tr>
+                  <td class="label">VIRTUAL</td>
+                  <td>$1.84</td>
+                  <td class="up">▲ 8.4%</td>
+                  <td>$45M</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <a href="/market/" class="label text-muted">[FULL MARKET →]</a>
+        </div>
+
+        <div class="card" style="grid-column: span 6; border: none; padding: 0; padding-left: var(--space-4); border-left: 1px solid var(--rule);">
+          <h3 class="headline" style="margin-bottom: var(--space-4);">LATEST RESEARCH</h3>
+          <ul style="display: flex; flex-direction: column; gap: var(--space-3);">
+            <li style="border-bottom: 1px solid var(--rule); padding-bottom: var(--space-3);">
+              <span class="label" style="font-size: var(--text-xs); color: var(--text-secondary);">2026-05-25</span>
+              <a href="/research/"><h4 style="font-family: 'IBM Plex Mono', monospace; font-weight: normal; margin-top: var(--space-1);">Decentralized GPU Routing for Autonomous Agents</h4></a>
+            </li>
+            <li style="border-bottom: 1px solid var(--rule); padding-bottom: var(--space-3);">
+              <span class="label" style="font-size: var(--text-xs); color: var(--text-secondary);">2026-05-20</span>
+              <a href="/research/"><h4 style="font-family: 'IBM Plex Mono', monospace; font-weight: normal; margin-top: var(--space-1);">Constitutional Governance in Personal AI OS</h4></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <hr>
+    <footer>
+      <span><a href="/feed.xml">[RSS FEED]</a></span>
+      <span>AUTOMATED BY AEON FRAMEWORK</span>
+      <span>LAST UPDATED: 2026-05-28 17:00 UTC</span>
+    </footer>
+  </div>
+
+</body>
+</html>

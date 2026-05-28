@@ -1,0 +1,75 @@
+{
+  "lastUpdated": "2026-05-28T10:00:00Z",
+  "nodes": [
+    {
+      "id": "odei",
+      "name": "ODEI",
+      "symbol": "ODAI",
+      "level": "L5",
+      "category": "symbiotic",
+      "score": 92,
+      "marketCap": 84700000,
+      "connections": ["virtuals", "ai16z", "bittensor", "fetch"]
+    },
+    {
+      "id": "virtuals",
+      "name": "Virtuals Protocol",
+      "symbol": "VIRTUAL",
+      "level": "L3",
+      "category": "launchpad",
+      "score": 85,
+      "marketCap": 1800000000,
+      "connections": ["odei", "ai16z", "base"]
+    },
+    {
+      "id": "ai16z",
+      "name": "ai16z (Eliza)",
+      "symbol": "AI16Z",
+      "level": "L3",
+      "category": "framework",
+      "score": 88,
+      "marketCap": 1620000000,
+      "connections": ["odei", "virtuals", "solana"]
+    },
+    {
+      "id": "bittensor",
+      "name": "Bittensor",
+      "symbol": "TAO",
+      "level": "L2",
+      "category": "compute",
+      "score": 90,
+      "marketCap": 3400000000,
+      "connections": ["odei", "fetch", "render"]
+    },
+    {
+      "id": "fetch",
+      "name": "Fetch.ai (ASI)",
+      "symbol": "FET",
+      "level": "L2",
+      "category": "compute",
+      "score": 82,
+      "marketCap": 2100000000,
+      "connections": ["odei", "bittensor", "ocean"]
+    },
+    {
+      "id": "render",
+      "name": "Render Network",
+      "symbol": "RENDER",
+      "level": "L1",
+      "category": "compute",
+      "score": 78,
+      "marketCap": 4600000000,
+      "connections": ["bittensor", "fetch"]
+    }
+  ],
+  "edges": [
+    { "source": "odei", "target": "virtuals", "type": "interop", "strength": 0.8 },
+    { "source": "odei", "target": "ai16z", "type": "interop", "strength": 0.7 },
+    { "source": "odei", "target": "bittensor", "type": "dependency", "strength": 0.6 },
+    { "source": "odei", "target": "fetch", "type": "interop", "strength": 0.5 },
+    { "source": "virtuals", "target": "ai16z", "type": "competition", "strength": 0.9 },
+    { "source": "bittensor", "target": "fetch", "type": "interop", "strength": 0.7 },
+    { "source": "bittensor", "target": "render", "type": "dependency", "strength": 0.6 },
+    { "source": "fetch", "target": "render", "type": "dependency", "strength": 0.4 }
+  ]
+}

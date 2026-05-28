@@ -1,8 +1,74 @@
 [
   {
-    "filename": "changelog-2026-03-19.md",
-    "title": "Changelog — Week of 2026-03-19",
-    "date": "2026-03-19",
-    "summary": "- Add local dashboard for managing skills, secrets, and runs — Next.js app with visual schedule picker, secret management, skill toggling, and workflow triggers (9b12614)"
+    "slug": "tao-breaks-ath",
+    "title": "TAO Breaks ATH as Subnet Activity Spikes 340%",
+    "date": "2026-05-28",
+    "category": "daily-brief",
+    "summary": "On-chain data confirms institutional accumulation ahead of halving. Network utilization reaches record high across major subnets. TAO staking yields compress as new validators flood the network.",
+    "readTime": 4,
+    "tags": ["TAO", "Bittensor", "on-chain", "ATH"]
+  },
+  {
+    "slug": "virtuals-volume",
+    "title": "Virtuals Protocol Captures 40% of AI Agent Launch Volume",
+    "date": "2026-05-28",
+    "category": "token-movers",
+    "summary": "Base ecosystem sees massive inflow as AI agent launchpad gains traction. Protocol revenue up 280% month-over-month. Five new agent deployments in the last 48 hours.",
+    "readTime": 3,
+    "tags": ["VIRTUAL", "Base", "launchpad", "volume"]
+  },
+  {
+    "slug": "eliza-framework-adoption",
+    "title": "Eliza Framework Adoption Surges Past 2,000 Forks",
+    "date": "2026-05-27",
+    "category": "deep-research",
+    "summary": "Analysis of ai16z open-source agent framework and its impact on developer velocity. TypeScript-first approach lowers barrier to entry. Community plugins now outnumber core modules 3:1.",
+    "readTime": 8,
+    "tags": ["ai16z", "Eliza", "open-source", "framework"]
+  },
+  {
+    "slug": "multi-agent-reasoning",
+    "title": "Multi-Agent System Reasoning: A New Paradigm",
+    "date": "2026-05-26",
+    "category": "paper-digest",
+    "summary": "Reviewing the latest methodology for autonomous agent consensus on-chain. Novel approach to Byzantine fault tolerance in LLM-driven agent swarms.",
+    "readTime": 6,
+    "tags": ["multi-agent", "consensus", "research"]
+  },
+  {
+    "slug": "odei-l5-symbiotic",
+    "title": "ODEI's L5 Symbiotic Architecture: Technical Deep Dive",
+    "date": "2026-05-25",
+    "category": "technical-explainer",
+    "summary": "Breaking down the five autonomy levels and what L5 actually means. ODEI claims full symbiotic capability — we examine the evidence. Comparison against Virtuals L2 and ai16z L3 implementations.",
+    "readTime": 10,
+    "tags": ["ODAI", "L5", "symbiotic", "architecture"]
+  },
+  {
+    "slug": "fetch-ai-compute-merger",
+    "title": "Fetch.ai Compute Merger Reshapes Token Economics",
+    "date": "2026-05-24",
+    "category": "token-report",
+    "summary": "The ASI Alliance merger consolidates FET, AGIX, and OCEAN into a single compute token. Market cap implications and liquidity analysis. What this means for holders.",
+    "readTime": 5,
+    "tags": ["FET", "ASI", "merger", "tokenomics"]
+  },
+  {
+    "slug": "defi-ai-agents-liquidity",
+    "title": "DeFi Meets AI: Agent-Managed Liquidity Pools",
+    "date": "2026-05-23",
+    "category": "defi-overview",
+    "summary": "Autonomous agents are now managing $340M in DeFi liquidity across Uniswap V4, Aerodrome, and Curve. Performance data from the first 90 days.",
+    "readTime": 7,
+    "tags": ["DeFi", "liquidity", "autonomous", "Uniswap"]
+  },
+  {
+    "slug": "weekly-ai-agent-review-w21",
+    "title": "Week 21: AI Agent Ecosystem in Numbers",
+    "date": "2026-05-22",
+    "category": "weekly-review",
+    "summary": "Total AI agent token market cap crosses $18B. Developer activity up 42% WoW. Three new L3+ agent frameworks launched. Narrative shift from hype to infrastructure.",
+    "readTime": 5,
+    "tags": ["weekly", "ecosystem", "metrics"]
   }
 ]

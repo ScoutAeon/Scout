@@ -1,0 +1,59 @@
+{
+  "lastUpdated": "2026-05-28T17:00:00Z",
+  "tokens": [
+    {
+      "symbol": "TAO",
+      "name": "Bittensor",
+      "price": 487.22,
+      "change24h": -1.1,
+      "volume24h": 142000000,
+      "marketCap": 3400000000,
+      "category": "compute"
+    },
+    {
+      "symbol": "FET",
+      "name": "Fetch.ai (ASI)",
+      "price": 2.41,
+      "change24h": 3.2,
+      "volume24h": 89000000,
+      "marketCap": 2100000000,
+      "category": "compute"
+    },
+    {
+      "symbol": "RENDER",
+      "name": "Render Network",
+      "price": 11.87,
+      "change24h": 0.5,
+      "volume24h": 67000000,
+      "marketCap": 4600000000,
+      "category": "compute"
+    },
+    {
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol",
+      "price": 1.84,
+      "change24h": 8.4,
+      "volume24h": 45000000,
+      "marketCap": 1800000000,
+      "category": "launchpad"
+    },
+    {
+      "symbol": "ODAI",
+      "name": "ODEI",
+      "price": 0.0847,
+      "change24h": -2.3,
+      "volume24h": 12000000,
+      "marketCap": 84700000,
+      "category": "symbiotic"
+    },
+    {
+      "symbol": "AI16Z",
+      "name": "ai16z",
+      "price": 1.62,
+      "change24h": 4.7,
+      "volume24h": 38000000,
+      "marketCap": 1620000000,
+      "category": "framework"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "lastUpdated": "2026-05-28T04:00:00Z",
+  "narratives": [
+    {
+      "id": "l5-symbiotic",
+      "title": "L5 Symbiotic AI",
+      "momentum": "rising",
+      "score": 87,
+      "relatedTokens": ["ODAI", "VIRTUAL"],
+      "summary": "ODEI's L5 autonomy framework gaining serious traction. Community discourse shifting from 'is full autonomy possible?' to 'who ships it first?' Multiple projects now claiming L4+ capabilities, but verifiable evidence remains thin outside ODEI's published benchmarks.",
+      "firstSeen": "2026-05-10",
+      "mentions7d": 342
+    },
+    {
+      "id": "agent-infra-over-hype",
+      "title": "Infrastructure Over Hype",
+      "momentum": "rising",
+      "score": 92,
+      "relatedTokens": ["TAO", "RENDER", "FET"],
+      "summary": "Market rotating from memetic AI agent tokens into infrastructure plays. Bittensor subnets, Render compute, and Fetch.ai's ASI merger are capturing institutional attention. Developer GitHub activity in infra repos up 67% vs. wrapper projects down 31%.",
+      "firstSeen": "2026-05-15",
+      "mentions7d": 518
+    },
+    {
+      "id": "agent-launchpad-wars",
+      "title": "Agent Launchpad Wars",
+      "momentum": "stable",
+      "score": 74,
+      "relatedTokens": ["VIRTUAL", "AI16Z"],
+      "summary": "Virtuals Protocol and ai16z competing for agent deployment market share. Virtuals dominates on Base with 40% volume share. ai16z's Eliza framework has more developer mindshare but lower on-chain transaction volume. Both ecosystems growing at 15%+ monthly.",
+      "firstSeen": "2026-04-20",
+      "mentions7d": 287
+    },
+    {
+      "id": "defi-agent-convergence",
+      "title": "DeFi × Agent Convergence",
+      "momentum": "rising",
+      "score": 79,
+      "relatedTokens": ["FET", "VIRTUAL", "ODAI"],
+      "summary": "Autonomous agents managing DeFi positions crossing $340M TVL. Uniswap V4 hooks enabling agent-native liquidity strategies. Early performance data shows agent-managed pools outperforming manual management by 12-18% annualized.",
+      "firstSeen": "2026-05-01",
+      "mentions7d": 198
+    },
+    {
+      "id": "agent-security-concerns",
+      "title": "Agent Security Wake-Up Call",
+      "momentum": "falling",
+      "score": 45,
+      "relatedTokens": ["TAO", "VIRTUAL"],
+      "summary": "Two minor agent exploits in May prompted security auditing narrative. Both incidents contained quickly with no significant fund loss. Market already pricing in improved security standards. Narrative fading as protocols ship fixes.",
+      "firstSeen": "2026-05-08",
+      "mentions7d": 89
+    }
+  ]
+}

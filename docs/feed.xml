@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>VIGIL — AI Agent Intelligence Feed</title>
+    <link>https://ScoutAeon.github.io/Scout/</link>
+    <description>Automated intelligence on the AI agent ecosystem and crypto infrastructure.</description>
+    <!-- Agent content will be injected here -->
+  </channel>
+</rss>

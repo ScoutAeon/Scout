@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "multi-agent-reasoning",
+    "title": "Multi-Agent System Reasoning on Blockchain Networks",
+    "date": "2026-05-26",
+    "source": "arXiv",
+    "authors": "Zhang et al.",
+    "summary": "Proposes a novel consensus mechanism for LLM-driven agent swarms operating on-chain. Introduces Byzantine fault tolerance adapted for non-deterministic AI outputs. Tested across 1,000 agent simulations with 99.2% agreement rate.",
+    "tags": ["multi-agent", "consensus", "on-chain", "BFT"],
+    "readTime": 6
+  },
+  {
+    "slug": "decentralized-gpu-routing",
+    "title": "Decentralized GPU Routing for Autonomous Agents",
+    "date": "2026-05-25",
+    "source": "arXiv",
+    "authors": "Park, Chen & Williams",
+    "summary": "Addresses the compute allocation problem in decentralized agent networks. Proposes a market-based routing protocol where agents bid for GPU resources using on-chain micropayments. Benchmarked on Bittensor subnet architecture.",
+    "tags": ["GPU", "routing", "decentralized", "compute"],
+    "readTime": 8
+  },
+  {
+    "slug": "constitutional-governance-ai-os",
+    "title": "Constitutional Governance in Personal AI Operating Systems",
+    "date": "2026-05-20",
+    "source": "ICML 2026",
+    "authors": "Rivera & Nakamura",
+    "summary": "Framework for embedding governance rules into personal AI agents. Agents operate within constitutional boundaries set by the user, with on-chain audit trails. Implications for L4+ autonomous systems.",
+    "tags": ["governance", "constitutional", "AI OS", "autonomy"],
+    "readTime": 10
+  },
+  {
+    "slug": "token-incentive-alignment",
+    "title": "Token Incentive Alignment in Multi-Agent Economies",
+    "date": "2026-05-18",
+    "source": "NeurIPS Workshop",
+    "authors": "Hoffmann et al.",
+    "summary": "Examines how token-based incentive mechanisms affect cooperation in agent swarms. Finds that poorly designed tokenomics lead to adversarial emergent behavior in 34% of tested scenarios.",
+    "tags": ["tokenomics", "incentives", "game-theory", "alignment"],
+    "readTime": 7
+  },
+  {
+    "slug": "llm-agent-memory-persistence",
+    "title": "Persistent Memory Architectures for Long-Running LLM Agents",
+    "date": "2026-05-15",
+    "source": "GitHub Research",
+    "authors": "OpenAI Agent Research Team",
+    "summary": "Compares five approaches to agent memory persistence: vector stores, graph databases, key-value caches, file-based logs, and hybrid architectures. Finds that hybrid approaches outperform single-method by 2.3x on 30-day retention benchmarks.",
+    "tags": ["memory", "persistence", "LLM", "architecture"],
+    "readTime": 9
+  }
+]
